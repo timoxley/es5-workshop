@@ -11,9 +11,9 @@
   "exercises": {
     "Array - map": "./exercises/array-map",
     "Array - filter": "./exercises/array-filter",
-    "Array - reduce": "./exercises/array-reduce",
     "Array - every/some": "./exercises/array-every-some",
-    "Array - map with reduce": "./exercises/map-with-reduce"
+    "Array - reduce": "./exercises/array-reduce",
+    "Array - map with reduce": "./exercises/array-map-with-reduce"
   },
   "author": "Tim Oxley <secoif@gmail.com>",
   "license": "ISC",

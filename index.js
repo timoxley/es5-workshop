@@ -3,7 +3,7 @@
 "use strict"
 
 var adventure = require('adventure');
-var shop = adventure('es5 workshop');
+var shop = adventure('es5-workshop');
 var spawn = require('child_process').spawn
 var pkg = require('./package.json')
 var msee = require('msee')
