@@ -3,11 +3,18 @@
   "version": "1.0.0",
   "description": "NodeSchool ES5 Workshop",
   "main": "index.js",
-  "bin": "index.js",
+  "bin": {
+    "es5-workshop": "index.js"
+  },
   "scripts": {
     "test": "node -e \"require('./index')\" && echo 'ok.'"
   },
-  "keywords": ["nodeschool", "workshopper", "ES5", "tutor"],
+  "keywords": [
+    "nodeschool",
+    "workshopper",
+    "ES5",
+    "tutor"
+  ],
   "exercises": {
     "Array - map": "./exercises/array-map",
     "Array - filter": "./exercises/array-filter",
@@ -25,5 +32,14 @@
     "lorem-ipsum": "^1.0.1",
     "msee": "^0.1.1",
     "wordwrap": "0.0.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/timoxley/es5-workshop.git"
+  },
+  "bugs": {
+    "url": "https://github.com/timoxley/es5-workshop/issues"
+  },
+  "homepage": "https://github.com/timoxley/es5-workshop"
 }
